@@ -93,7 +93,7 @@ try:
 
     models = {
         "Logistic Regression": LogisticRegression(solver='liblinear', max_iter=1000, random_state=42),
-        "Decision Tree": DecisionTreeClassifier(max_depth=20, criterion="entropy", random_state=42),
+        "Decision Tree": DecisionTreeClassifier(max_depth=10, criterion="entropy", random_state=42),
         "Random Forest": RandomForestClassifier(n_estimators=200, max_depth=20, random_state=42, criterion="entropy")
     }
 
